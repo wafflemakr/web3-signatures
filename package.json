@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js > bundle.js"
+    "build": "browserify index.js > client/bundle.js"
   },
   "repository": {
     "type": "git",
