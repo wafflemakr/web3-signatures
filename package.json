@@ -1,0 +1,28 @@
+{
+  "name": "signatures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wafflemakr/web3-signatures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wafflemakr/web3-signatures/issues"
+  },
+  "homepage": "https://github.com/wafflemakr/web3-signatures#readme",
+  "dependencies": {
+    "eth-sig-util": "^2.5.3",
+    "web3": "1.2.0"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "browserify": "^16.2.3"
+  }
+}
